@@ -4,7 +4,8 @@
     "es2021": true,
     "jest": true
   },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "extends": ["plugin:react/recommended", "airbnb", "prettier"
+],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -27,7 +28,6 @@
     "prettier/prettier": "error",
     "import/extensions": 0,
     "object-curly-newline": 0,
-    "linebreak-style": ["error", "windows"],
     "react/jsx-filename-extension": [
       1,
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
